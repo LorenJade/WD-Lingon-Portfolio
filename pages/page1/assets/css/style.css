@@ -1,0 +1,79 @@
+/* General for Margins and Paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #ffefdb;
+    height: 100%;
+    font-family: Georgia, sans-serif;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffecd2;
+
+}
+
+a {
+    text-decoration: none;
+    color:#3f2f24;
+    margin-inline: 2rem;
+    
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+
+}
+
+/* Hover Animations */
+.navbar a:hover {
+    color: #ffffff;
+    transform: translateY(-5px);
+}
+
+.navbar a:hover {
+    background-color: #9a6845;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+/* Header Section Styles */
+.header-section {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: url(/assets/img/Background\ Header\ Photo.png) no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 2rem;
+
+}
+
+.header-content {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 1rem;
+}
